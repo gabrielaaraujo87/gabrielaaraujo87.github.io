@@ -32,10 +32,6 @@ header {
 	box-shadow: 0px 0px 2px 1px black;
 	}
 
-.site-title {
-	text-decoration-color: blueviolet;
-}
-
 /* Style for nav specifies text properties */
 nav {
 	font-family: Verdana, Arial, serif;
@@ -102,3 +98,4 @@ a:hover {
  a:focus {
 	box-shadow: 0 0 0 3px black;
   }
+
