@@ -10,10 +10,39 @@
     <body> 
 		
         <div id="container"> 
+
          <!-- Use the header area for the website name or logo --> 
          <header> 
-			<h1>Gabriela Araujo</h1> 
+			<br>
+			<label for="colors">Choose a color:</label>
+			<select name="colors" id="colors">
+			  <option value="purple">Purple</option>
+			  <option value="blue">Blue</option>
+			  <option value="black">Black</option>
+			  <option value="yellow">Yellow</option>
+			</select>
+			<br><br>
+			<div class="site-title">
+            <h1>Gabriela Araujo</h1> 
+            </div>
+			<br>
+			<img id="my-image" alt="" width="400", height="500" src="Images\Gabriela 6.jpg" alt="Gabriela Araujo" /> 
         </header> 
+
+        <!-- Use the nav area to add hyperlinks to other pages within the website --> 
+		<h3>Hobbies</h3> 
+		<ul style="list-style-type: square;"> 
+			<style> 
+				li:nth-child(even) {
+				  background: blueviolet;
+				}
+				</style>
+			<li>Taekwondo</li> 
+			<li>Yoga</li> 
+			<li>Reading books</li> 
+			<li>Watching movies</li> 
+		  </ul> 
+
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>       
             <h2>About me</h2> 
@@ -23,12 +52,26 @@
 <br> 
 <p><q>The secret of getting ahead is getting started.</q>— <em>Mark Twain</em></p> 
 <br> 
+
+<a href="notes.html">Notes</a> 
+
         </main> 
+
         <!-- Use the footer area to add webpage footer content --> 
 		<footer> 
+			<br>
+			<label for="colors">Choose :</label>
+			<select name="options" id="options">
+			  <option value="life">Life</option>
+			  <option value="leisure">Leisure</option>
+			  <option value="death">Death</option>
+			</select>
+			<br><br>
 			&copy; Copyright 2023. All Rights Reserved to Gabriela Araujo.<br>
-        </footer>
-
+			<a href="mailto:1987gabriela@gmail.com">Contact Us</a>
+		</footer> 
+      
 	</div> 
-</body>
+
+</body> 
 </html> 

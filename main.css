@@ -1,0 +1,104 @@
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	text-align: left;
+	background-color: violet;
+	background-image: url("Images/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	margin-top: 0.2;
+	text-align: center;
+}
+
+#my-image {
+	box-shadow: 0px 0px 2px 1px black;
+	}
+
+.site-title {
+	text-decoration-color: blueviolet;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Verdana, Arial, serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #336699; 
+	border-radius: 2em; 
+	list-style-type: square; 
+	margin: 0.3em; 
+	padding: 0.4em;  
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a { 
+	color: #FFFFFF; 
+	text-decoration: none; 
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	background-color: #FFFFFF;
+	border-top: solid 0.2em #336699; 
+	border-bottom: solid 0.2em #336699;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+select {
+	background: purple;
+	text-align: center;
+  }
+
+  a:link { 
+	text-decoration: none; 
+	background-color: aqua;
+}
+
+a:hover {
+	background-color: lightcoral;
+  }
+  
+ a:focus {
+	box-shadow: 0 0 0 3px black;
+  }
